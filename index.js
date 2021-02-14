@@ -13,3 +13,8 @@ function wrapAdjective(outerParam = "*")
     return "You are "+ outerParam + param + outerParam +"!"
   }
 }
+
+const calculator = {};
+calculator.add = function(a, b){
+  return a+ b;
+}
