@@ -7,3 +7,9 @@ function mondayWork(activity = "go to the office")
 {
   return "This Monday, I will " + activity +".";
 }
+function wrapAdjective(outerParam = "*")
+{
+  return function(param = "special"){
+    return "You are "+ outerParam + param +"."
+  }
+}
