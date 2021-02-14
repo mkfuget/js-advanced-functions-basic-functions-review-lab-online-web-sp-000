@@ -14,7 +14,7 @@ function wrapAdjective(outerParam = "*")
   }
 }
 
-const calculator = {};
-calculator.add = function(a, b){
+const Calculator = {};
+Calculator.add = function(a, b){
   return a+ b;
 }
